@@ -7,6 +7,8 @@ void main() {
 
 class MyApp extends StatelessWidget {
   @override
+
+  git pull origin main --allow-unrelated-histories
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
